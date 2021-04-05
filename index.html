@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shoppy cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="shopping-cart">
+                <h1 class="shopping-cart-title">Shopping Cart</h1>
+                <div class="shopping-cart-grid">
+                    <div class="shopping-cart-item">
+                        <div class="shopping-cart-img">
+                            <img src="./assets/images/yellow-lamp.png" alt="">
+                        </div>
+                        <div class="shopping-cart-info">
+                            <h3 class="shopping-cart-name">Burdock</h3>
+                            <p class="shopping-cart-subname">Yellow Metal</p>
+                        </div>
+                        <div class="shopping-cart-price">$18.00<span>GBP</span></div>
+                        <div class="shopping-cart-icon"><i class='bx bx-x'></i></div>
+                    </div>
+                    <div class="shopping-cart-item">
+                        <div class="shopping-cart-img">
+                            <img src="./assets/images/gun-metal.png" alt="">
+                        </div>
+                        <div class="shopping-cart-info">
+                            <h3 class="shopping-cart-name">Marlowe</h3>
+                            <p class="shopping-cart-subname">GunMetal</p>
+                        </div>
+                        <div class="shopping-cart-price">$140.00<span>GBP</span></div>
+                        <div class="shopping-cart-icon"><i class='bx bx-x'></i></div>
+                    </div>
+                    <div class="shopping-cart-item">
+                        <div class="shopping-cart-img">
+                            <img src="./assets/images/green-wooden.png" alt="">
+                        </div>
+                        <div class="shopping-cart-info">
+                            <h3 class="shopping-cart-name">Dascia</h3>
+                            <p class="shopping-cart-subname">Wooden</p>
+                        </div>
+                        <div class="shopping-cart-price">$45.00<span>GBP</span></div>
+                        <div class="shopping-cart-icon"><i class='bx bx-x'></i></div>
+                    </div>
+                    <div class="shopping-cart-total">
+                        <h1><span>Total</span>138.00 GBP</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkout">
+                <h1 class="checkout-title">Checkout</h1>
+                <div class="checkout-card">
+                    <div class="checkout-card-item flex fd-c jc-sb">
+                        <img src="./assets/images/visa.png" alt="">
+                        <div class="checkout-card-code flex ai-c">
+                            <div>
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                            <div>
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                            <div>
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                            1320
+                        </div>
+                        <div class="checkout-card-date">12 / 20</div>
+                    </div>
+                    <div class="checkout-card-item"></div>
+                </div>
+                <form action="#" class="checkout-form">
+                    <div class="checkout-form-inputs">
+                        <div class="checkout-form-title">Name</div>
+                        <input class="checkout-form-input" type="text" placeholder="Alex Marin">
+                    </div>
+                    <div class="checkout-form-inputs">
+                        <div class="checkout-form-title">Card Number</div>
+                        <input class="checkout-form-input" type="text" placeholder="8000 8420 1234 1320">
+                    </div>
+                    <div class="checkout-form-inputs flex jc-l">
+                        <div class="checkout-form-expiry flex fd-c">
+                            <div class="checkout-form-title">Expiry Date</div>
+                            <input class="checkout-form-input" type="text" placeholder="12 / 20">
+                        </div>
+                        <div class="checkout-form-cvv flex fd-c">
+                            <div class="checkout-form-title">CVV</div>
+                            <input class="checkout-form-input" type="text" placeholder="123">
+                        </div>
+                    </div>
+                    <input class="checkout-form-submit" type="submit" value="Buy">
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
